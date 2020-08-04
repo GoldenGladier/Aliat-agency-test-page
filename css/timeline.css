@@ -1,0 +1,151 @@
+/* TIME LINE */
+
+.timeline{
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
+    width: 60%;
+    box-sizing: border-box;
+}
+.content-whiter{
+    height: 2000 !important;
+    background: whitesmoke;
+    padding: 0;
+}
+.timeline::before{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 2px;
+    height: 78%;
+    background: #8b92a5;
+}
+.timeline ul{
+    margin: 0;
+    padding: 0;
+}
+.timeline ul li{
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    list-style: none;
+}
+.timeline ul li:nth-child(even), .timeline ul li:nth-child(even) p{
+    float: left;
+    text-align: right;
+    clear: both;
+}
+.timeline ul li:nth-child(odd){
+    /* float: right; */
+    margin-left: 50%;
+    text-align: left;
+    clear: both;
+}
+.contend{
+    padding-bottom: 20px;
+}
+
+.timeline ul li h3{
+    margin: 0 ;
+    padding: 0;
+}
+.timeline ul li .number h4{
+    margin: 0;
+    padding: 0;
+}
+
+.timeline ul li:nth-child(even) .number{
+    position: absolute;
+    top: 10px;
+    right: -25px;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    color: #000;
+    background: #dadada;
+    border-radius: 50%;
+}
+.timeline ul li:nth-child(even) .number h4{
+    position: absolute;
+    top: 6px;
+    left: -10px;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    color: #000;
+}
+
+.timeline ul li:nth-child(odd) .number{
+    position: absolute;
+    top: 10px;
+    left: -25px;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    color: #000;
+    background: #dadada;
+    border-radius: 50%;
+}
+.timeline ul li:nth-child(odd) .number h4{
+    position: absolute;
+    top: 6px;
+    right: -10px;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    color: #000;
+}
+
+@media(max-width: 1000px){
+    .timeline{
+        width: 100%;
+        padding-bottom: 0 !important;
+    }
+}
+@media(max-width: 767px){
+    .timeline{
+        width: 100%;
+        padding-bottom: 0 !important;
+        padding-left: 10px;
+        margin-bottom: 0;
+    }
+    .timeline::before{
+        left: 30px;
+        top: 50px;
+        height: 80%;
+    }
+    .timeline ul li:nth-child(odd),
+    .timeline ul li:nth-child(even){
+        width: 100% !important;
+        text-align: left;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        margin-left: 0;
+    }
+    .timeline ul li:nth-child(odd) p,
+    .timeline ul li:nth-child(even) p{
+        text-align: left;
+    }
+    .timeline ul li:nth-child(odd) .number,
+    .timeline ul li:nth-child(even) .number{
+        position: absolute;
+        top: 10px;
+        left: 0;
+        margin: 0;
+        width: 20px;
+        height: 20px;
+    }
+    .timeline ul li:nth-child(odd) .number h4,
+    .timeline ul li:nth-child(even) .number h4{
+        position: absolute;
+        top: 2px;
+        left: 5px;
+        margin: 0;
+    }
+}

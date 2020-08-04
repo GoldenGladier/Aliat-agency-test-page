@@ -5,26 +5,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/timeline.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
     <title>Pisos de Madera - GDL</title>
 </head>
 <body>
-
+    <!-- Imagen Banner  -->
     <div class="background-img">
-        <div class="content-boxes">
-            <div class="box-transparent box-transparent-title">
-                <h1>Pisos de Madera en Guadalajara.</h1>
+        <div class="content">
+            <!-- Caja de texto -->
+            <div class="content-boxes">
+                <div class="box-transparent box-transparent-title">
+                    <h1>Pisos de Madera en Guadalajara.</h1>
+                </div>
+                <div class="box-transparent box-transparent-content">
+                    <p>¿Estás buscando un aliado que te apoye con tu proyecto de pisos de madera? Déjanos asesorarte para elegir la mejor opción. Contamos con más de 20 años de experiencia en la comercialización de suelos de madera, pisos de ingeniería y decks para exteriores. ¡Puedes agendar una llamada ya mismo!</p>                
+                </div>
             </div>
-            <div class="box-transparent box-transparent-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique voluptatibus aliquid aspernatur laborum! Ullam ipsum dolores doloremque voluptatibus dignissimos, saepe quo quas, voluptate exercitationem accusantium, dicta sunt dolorem rerum eveniet.</p>                
-            </div>
+            <!-- Formulario de contacto -->
+            <form action="POST" class="form-contact" id="form-contact">
+                <p>Elegir el piso de madera correcta no tiene por que ser tan complicado. Déjanos tu información de contacto y uno de nuestros asesores expertos te ayudará en cada paso del proceso. ¿Tienes dudas? Iniciemos una conversación aquí.</p>
+
+                <input type="text" name="input-username" id="input-username" size="30" placeholder="Nombre Completo">
+                <input type="email" name="email" id="input-email"
+                placeholder="Correo Electronico">
+                <input type="tel" name="phone" id="input-phone" size="15" placeholder="WhatsApp ">
+                <textarea name="message" id="input-message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+                <input type="submit" class="btn btn-submit-dark" type="button" value="Quiero Recibir Más Información">
+            </form>
+        </div>
+        <!-- Logotipo subsuelo -->
+        <div class="img-logo">
+            <img src="img/subsuelo-logo.png" alt="subsuelo-logo.png">
         </div>
     </div>
+    <!-- Bloque de contenido (Negro) -->
+    <section>
+        <div class="content-black">
+            <h2>Conoce el portafolio más exclusivo de pisos de madera</h2>
+            <div class="content">
+                <div class="box">
+                    <h3>Las mejores marcas</h3>
+                    <p>Somos aliados de las marcas más Premium y exclusivas a nivel mundial. Con muchas de ellas contamos con exclusividad, tales como MH Parquet, Bassano Parquet, Duchateau Parquet y muchas más. ¿Con cuál de todas quieres hacer realidad ese proyecto en tu cabeza?</p>
+                </div>
+                <div class="box">
+                    <h3>Protección Ecológica</h3>
+                    <p>Nos importa nuestro medio ambiente tanto como a ti, esa es la razón por la que solo trabajamos con marcas que nos aseguren puedan ejercer un control forestal tan exigente como las normativas europeas nos lo exigen. Cada vez que adquieres tu piso de madera con nosotros estás disminuyendo el impacto ecológico.</p>
+                </div>
+                <div class="box">
+                    <h3>Asesoramiento y Acompañamiento</h3>
+                    <p>Amamos la madera, es un producto que sabemos puede ser rómantico, cálido y armonioso. Gracias a nuestros 20 años de experiecia hemos detectado los requerimientos prácticamente de cualquier proyecto. Tú llega con la idea, nosotros te asesoramos a lo largo del proyecto y estaremos contigo mientras lo ejecutas.</p>
+                </div>                                
+            </div>
+        </div>
+    </section>
+    <!-- Bloque de contenido Blanco -->
+    <section>
+        <div class="content-white-smoke">
+            <div class="content">
+                <div class="img-content">
+                    <img src="img/img-01.jpg" alt="Piso Madera de Caoba importado.jpg">
+                </div>
+                <div class="text-content">
+                    <h2>Pisos de Madera Importados</h2>
+                    <p>Contamos con pisos de madera y duelas de ingeniería de talla internaciona. Tenemos un amplio portafolio con más de 100 productos diferentes que se ajustan perfecto a cualquier proyecto arquitectónico y de interiorismo. Si lo necesitas, puedes solicitar nuestro catálogo de productos.</p>
+                </div>                
+            </div>
+        </div>
+    </section>
 
+    <!-- Bloque de contenido Blanco -->
+    <section>
+        <div class="content-white">
+            <h2>¿Cómo Es Nuestro Proceso?</h2>
+            <div class="timeline">
+                <ul>
+                    <li>
+                        <div class="content">
+                            <h3>Empecemos la conversación</h3>
+                            <p>Lo primero es ponernos en contacto, puedes hacerlo directamente desde esta página para iniciar tu asesoría.</p>
+                        </div>
+                        <div class="number">
+                            <h4>1</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h3>Nuestros Asesores Se Pondrán En Contacto</h3>
+                            <p>Uno de nuestros asesores se pondrá en contacto contigo para entender de mejor manera tus necesidades.</p>
+                        </div>
+                        <div class="number">
+                            <h4>2</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h3>Analizamos Tu Situación y Trazamos El Plan</h3>
+                            <p>Ya con toda la información necesaria, tratamos de proponerte aquella solución que haga mayor sentido para tus necesidades.</p>
+                        </div>
+                        <div class="number">
+                            <h4>3</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h3>Ambas Partes Tomamos Una Desición</h3>
+                            <p>En conjunto, como equipo, determinamos que opción de piso de madera es la mejor solución para tu situación específica.</p>
+                        </div>
+                        <div class="number">
+                            <h4>4</h4>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="content">
+                            <h3>Puesta En Marcha</h3>
+                            <p>Es momento de ponernos a trabajar y hacer realidad ese proyecto que tienes en mente. No hay límites para nosotros.</p>
+                        </div>
+                        <div class="number">
+                            <h4>5</h4>
+                        </div>
+                    </li>                                                            
+                </ul>
+            </div>            
+        </div>
+    </section>
+    <section>
+        <div class="content-white-smoke">
+            <h2>Suelos de Madera de Lujo Para Proyectos Arquitectónicos y de Interiorismo</h2>
+            <img src="img/img-02.jpg" alt="Suelos de Madera de Lujo.jpg">
+        </div>
+    </section>
+    <section>
+        <div class="content-black center">
+            <div class="mini-block">
+                <h2>Agenda Tu Cita Hoy</h2>
+                <p>
+                    ¿Ya estás listo para comenzar? Déjanos tus datos y nosotros nos pondremos en contacto contigo lo antes posible. Estás a un paso de volver realidad ese gran proyecto en tu cabeza.
+                </p>
+                <a href="#form-contact" class="btn btn-submit-light curved">Quiero Más Información</a>
+            </div>            
+        </div>
+    </section>
+    <footer>
+        <div class="box-4">
+            <h3>GDL /</h3>
+            <h4>Morelos #2131, Col. Arcos, Vallarta.</h4>
+            <h4>Guadalajara, Jal. Mex.</h4>
+            <h4>C.P. 44130</h4>
+            <h4>+52(33) 36 15 8011</h4>
+        </div>
+        <div class="box-4">
+            <h3>CDMX /</h3>
+            <h4>Avenida Homero #418, Col. Polanco.</h4>
+            <h4>Polanco V Sección.</h4>
+            <h4>Ciudad de México, CDMX</h4>
+            <h4>C.P. 11560</h4>
+            <h4>+52 (55) 1209 1969</h4>
+        </div>
+        <div class="box-4">
+            <h3>POLÍTICA DE PRIVACIDAD</h3>
+            <h4>info@subsuelo.com.mx</h4>
+            <h4>© Copyright 2020 • Subsuelo T.W.E</h4>
+        </div>
+        <div class="box-4 center">
+            <img src="img/subsuelo-logo.png" alt="subsuelo-logo.png">
+        </div>
+    </footer>
 
-    <div class="hey">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum dolores omnis, velit in, iusto quasi dolore molestiae sunt fuga facere cum exercitationem. Commodi fugit dolorem obcaecati voluptate. Mollitia, quae!</p>
-    </div>
     
 </body>
 </html>

@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Bloque imagen Banner */
+
+.background-img{
+    box-sizing: border-box;
+    width: auto;
+    padding: 5%;
+    height: auto;
+    min-height: 100vh;
+    background: url('../img/background.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Caja de texto de la izquierda */
+.content-boxes{
+    width: 35%;
+    display: block;
+    float: left;
+}
+.box-transparent{
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: justify;
+}
+.box-transparent-title{
+    border: 2px solid #000;
+    font-family: sans-serif;
+    text-align: left;
+}
+.box-transparent-title h1{
+    font-size: 17pt;
+    margin: 0;
+}
+.box-transparent-content{
+    border-top: none;
+    backdrop-filter: blur(6px); 
+    -webkit-backdrop-filter: blur(6px);
+}
+.box-transparent-content p{
+    margin: 0;
+}   
+
+/* Formulario de contacto de la derecha */
+
+.form-contact{
+    width: 30%;
+    padding: 20px;
+    display: block;
+    float: right;
+    margin: 0;
+    background: #1e1e1e;
+}
+.form-contact p{   
+    color: #cecece;
+    font-size: 11pt;
+    line-height: 23px;
+    margin: 0;
+}
+.form-contact input, .form-contact textarea{
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 100%;
+    border: 0;
+    padding: 8px 0 2px 10px;
+    font-family: sans-serif;
+    border-radius: 2px;
+}
+.form-contact textarea{
+    height: auto;
+}
+/* Formato de los botones */
+.btn{
+    width: 100% !important;
+    height: 30px;
+    padding: 5px !important;
+    margin: 0;
+    font-family: sans-serif;
+}
+.btn-submit-dark{
+    font-weight: bold;
+    background: #424592;
+    color: #cecece;
+    border-radius: 0 !important;
+    text-decoration: none;
+}
+.btn-submit-dark:hover{
+    background: #3769c0;
+}
+.btn-submit-light{
+    font-weight: bold;
+    background: #417de1;
+    color: #fff;
+    border-radius: 0 !important;
+    text-decoration: none;
+}
+.btn-submit-light:hover{
+    background: #3769c0;
+}
+.curved{
+    border-radius: 10px !important;
+    padding: 15px !important;
+}
+    /* Logotipo subsuelo */
+.img-logo{
+    width: auto;
+    clear: both;
+}
+.img-logo img{
+    width: 200px;
+    height: auto;
+}
+/* Bloque informativo (Pisos de Madera Importados) */
+
+.content-black{
+    background: #1e1e1e;
+    padding: 20px 0;
+}
+.content-black h2{
+    color: #fff;
+    font-weight: lighter;
+    text-align: center;
+}
+.content-black .content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    padding: 5px;
+    margin: 0 30px;
+    width: 30%;
+    float: left;
+}
+.box-4{
+    box-sizing: border-box;
+    padding: 5px;
+    width: 25%;
+    float: left;
+}
+.box h3{
+    color: #fff;
+    font-size: 12pt;
+}
+.box p{
+    color: #979797;
+    font-size: 11pt;
+    line-height: 23px;
+    text-align: center;
+}
+
+/* Bloque informativo con imagen */
+.content-white{
+    background: #fff;
+}
+.content-white-smoke{
+    background: whitesmoke;
+}
+.content-white, .content-white-smoke{
+    padding: 20px 0;
+    justify-content: center;
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+
+/* Bloque Suelos de Madera de Lujo */
+
+.content-white h2, .content-white-smoke h2{
+    text-align: center;
+}
+.content-white-smoke img, .content-white-smoke img{
+    width: 50%;
+    height: auto;
+}
+.content-white-smoke .content{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.img-content{
+    width: 40%;
+    height: auto;
+    margin-right: 10%;
+    display: block;
+    float: left;
+}
+.img-content img{
+    width: 100%;
+}
+.text-content{
+    width: 40%;
+    margin-left: 10%;
+}
+.text-content h2, p{
+    text-align: left;
+    font-weight: lighter;
+}
+.text-content p{
+    color: #1e1e1e;
+    font-size: 11pt;
+    line-height: 25px;
+    text-align: left;
+}
+
+/* Bloque Agenda tu cita */
+
+.mini-block{
+    width: 300px;
+    color: #979797;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content-black .mini-block p{
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+/* Seccion del footer  */
+
+footer{
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+footer .box-4{
+    display: inline-block;
+    /* background: tomato; */
+    margin-right: 0px;
+}
+footer .box-4 img{
+    width: 200px;
+    margin-top: 20%;
+    right: 0;
+    float: right;
+}
+footer .box-4 h3, h4{
+    font-family: 'Montserrat', sans-serif;
+}
+footer .box-4 h4{
+    font-weight: normal;
+    font-size: 11pt;
+    line-height: 15px;
+}
+
+@media(max-width: 767px){
+    /* Banner imagen */
+    .content-boxes{
+        width: 80%;
+        display: inline-block;
+        float: none;
+    }
+    .form-contact{
+        width: 85%;
+        display: inline-block;
+        margin: auto;
+        float: none;
+        margin: 20px auto;
+    }
+    .background-img .content{
+        text-align: center;
+    }
+    .img-logo{
+        margin: auto;
+        text-align: center;
+    }
+    /* Bloque informativo Black */
+    .content-black .content{
+        width: 90%;
+        display: block;
+        text-align: center;
+        overflow: hidden;
+    }
+    .content-black .content .box{
+        display: block;
+        float: none;
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+    }
+    /* Bloque informativo Blanco */
+    .content-white-smoke .content{
+        width: 90%;
+        display: block;
+        text-align: center;
+        overflow: hidden;
+    }
+    .content-white-smoke .content .img-content{
+        width: 100%;
+    }
+    .content-white-smoke .content .text-content{
+        display: inline;
+        text-align: center;
+    }
+    .content-white-smoke .content .text-content h2, 
+    .content-white-smoke .content .text-content p{
+        text-align: center;
+    }
+
+    /* Bloque informativo con imagen */
+    .content-white-smoke img{
+        width: 90%;
+    }
+    /* footer  */
+    footer .box-4{
+        width: 100%;
+        text-align: center;
+        clear: both;
+        float: none;
+    }
+    footer .box-4 img{
+        width: 100%;
+    }
+}
